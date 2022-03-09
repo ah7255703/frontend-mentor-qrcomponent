@@ -10,6 +10,7 @@
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
+  font-size: 15px;
 }
 
 body {
@@ -25,39 +26,40 @@ body {
   align-items: center;
 
   .qr-component {
-    width: 250px;
-    height: 350px;
+    width: 18rem;
+    height: 24rem;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 0.8rem;
+    padding: 0.4rem;
 
     .qr {
       width: 90%;
       background-color: var(--grayish-blue);
       height: 60%;
-      border-radius: 10px;
-
-      img {
-      }
+      border-radius: 1rem;
     }
 
     .qr-detail {
+      padding: 0 0.7rem;
       text-align: center;
-      padding: 0 10px;
-      h6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.9rem;
+      h1 {
         font-weight: 700;
-        font-size: 13px;
+        font-size: 1rem;
         color: var(--dark-blue);
       }
 
-      small {
+      p {
         color: var(--grayish-blue);
         font-weight: 400;
-        font-size: 10px;
+        font-size: 0.8rem;
       }
     }
   }
