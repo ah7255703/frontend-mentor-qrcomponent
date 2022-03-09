@@ -32,8 +32,8 @@ body {
 }
 
 .layout .qr-component {
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 350px;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
